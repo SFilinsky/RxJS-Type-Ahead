@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+
+    background-color: lightgray;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 20em;
+    min-width: fit-content;
+
+    font-size: 100%;
+}
+
+#input {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#hints-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#hints-container > * {
+    font-size: 26px;
+    line-height: 31px;
+}
+
